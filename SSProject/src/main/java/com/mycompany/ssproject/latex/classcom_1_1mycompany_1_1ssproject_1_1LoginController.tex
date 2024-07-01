@@ -1,0 +1,128 @@
+\hypertarget{classcom_1_1mycompany_1_1ssproject_1_1LoginController}{}\doxysection{com.\+mycompany.\+ssproject.\+Login\+Controller Class Reference}
+\label{classcom_1_1mycompany_1_1ssproject_1_1LoginController}\index{com.mycompany.ssproject.LoginController@{com.mycompany.ssproject.LoginController}}
+
+
+This class controls the login process of the application.  
+
+
+
+
+Collaboration diagram for com.\+mycompany.\+ssproject.\+Login\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1mycompany_1_1ssproject_1_1LoginController__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries User\+Session}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1LoginController_ad286d13e696298599db892e74a49bbb9}{session\+Save}} (String Username)
+\begin{DoxyCompactList}\small\item\em Saves the user session. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a3794289466beb3235671369163b8e2d1}{session\+Query}} (String Username)  throws I\+O\+Exception, Interrupted\+Exception 
+\begin{DoxyCompactList}\small\item\em Queries the user session. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a9f6f3f54db8b6f95f6e4d45782d3c606}{validate\+User}} (String user, String pass, String tab\+Name)  throws I\+O\+Exception, Interrupted\+Exception 
+\begin{DoxyCompactList}\small\item\em Validates the given user credentials and logs the user in if they are correct. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a506b470bfcb1e74999b8b3507fb84aa8}{listen}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a2ec58bdbd29112abdb126eba8925513c}\label{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a2ec58bdbd29112abdb126eba8925513c}} 
+static Map$<$ String, User\+Session $>$ \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a2ec58bdbd29112abdb126eba8925513c}{sessions}} = new Hash\+Map$<$$>$()
+\begin{DoxyCompactList}\small\item\em A map that stores the user sessions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class controls the login process of the application. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a506b470bfcb1e74999b8b3507fb84aa8}\label{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a506b470bfcb1e74999b8b3507fb84aa8}} 
+\index{com.mycompany.ssproject.LoginController@{com.mycompany.ssproject.LoginController}!listen@{listen}}
+\index{listen@{listen}!com.mycompany.ssproject.LoginController@{com.mycompany.ssproject.LoginController}}
+\doxysubsubsection{\texorpdfstring{listen()}{listen()}}
+{\footnotesize\ttfamily static void com.\+mycompany.\+ssproject.\+Login\+Controller.\+listen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Listens for incoming client connections and verifies whether their session is valid. \mbox{\Hypertarget{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a3794289466beb3235671369163b8e2d1}\label{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a3794289466beb3235671369163b8e2d1}} 
+\index{com.mycompany.ssproject.LoginController@{com.mycompany.ssproject.LoginController}!sessionQuery@{sessionQuery}}
+\index{sessionQuery@{sessionQuery}!com.mycompany.ssproject.LoginController@{com.mycompany.ssproject.LoginController}}
+\doxysubsubsection{\texorpdfstring{sessionQuery()}{sessionQuery()}}
+{\footnotesize\ttfamily boolean com.\+mycompany.\+ssproject.\+Login\+Controller.\+session\+Query (\begin{DoxyParamCaption}\item[{String}]{Username }\end{DoxyParamCaption}) throws I\+O\+Exception, Interrupted\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Queries the user session. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Username} & the username of the user. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the user session exists, false otherwise. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if the file for the user session cannot be read. \\
+\hline
+{\em Interrupted\+Exception} & if the operation is interrupted. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1ssproject_1_1LoginController_ad286d13e696298599db892e74a49bbb9}\label{classcom_1_1mycompany_1_1ssproject_1_1LoginController_ad286d13e696298599db892e74a49bbb9}} 
+\index{com.mycompany.ssproject.LoginController@{com.mycompany.ssproject.LoginController}!sessionSave@{sessionSave}}
+\index{sessionSave@{sessionSave}!com.mycompany.ssproject.LoginController@{com.mycompany.ssproject.LoginController}}
+\doxysubsubsection{\texorpdfstring{sessionSave()}{sessionSave()}}
+{\footnotesize\ttfamily void com.\+mycompany.\+ssproject.\+Login\+Controller.\+session\+Save (\begin{DoxyParamCaption}\item[{String}]{Username }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Saves the user session. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Username} & the username of the user. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a9f6f3f54db8b6f95f6e4d45782d3c606}\label{classcom_1_1mycompany_1_1ssproject_1_1LoginController_a9f6f3f54db8b6f95f6e4d45782d3c606}} 
+\index{com.mycompany.ssproject.LoginController@{com.mycompany.ssproject.LoginController}!validateUser@{validateUser}}
+\index{validateUser@{validateUser}!com.mycompany.ssproject.LoginController@{com.mycompany.ssproject.LoginController}}
+\doxysubsubsection{\texorpdfstring{validateUser()}{validateUser()}}
+{\footnotesize\ttfamily boolean com.\+mycompany.\+ssproject.\+Login\+Controller.\+validate\+User (\begin{DoxyParamCaption}\item[{String}]{user,  }\item[{String}]{pass,  }\item[{String}]{tab\+Name }\end{DoxyParamCaption}) throws I\+O\+Exception, Interrupted\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Validates the given user credentials and logs the user in if they are correct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & The username to validate. \\
+\hline
+{\em pass} & The password to validate. \\
+\hline
+{\em tab\+Name} & The name of the table to query the user data from. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & If there is an error with input/output. \\
+\hline
+{\em Interrupted\+Exception} & If the thread is interrupted. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+True if the user credentials are valid and the user is logged in, false otherwise. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{LoginController_8java}{Login\+Controller.\+java}}\end{DoxyCompactItemize}

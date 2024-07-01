@@ -1,0 +1,374 @@
+commit 901216edc52fb4a28a53e9ac3694e7980b10c54e
+Author: n1000282 <ntu-user@548c378fee7e>
+Date:   Sun Apr 23 20:38:11 2023 +0000
+
+    Doxygen Completed
+
+commit 96f9b2db68cebd5d48b38c7e09a2c86180adc6eb
+Author: n1000282 <>
+Date:   Sun Apr 23 18:46:07 2023 +0000
+
+    Tried to ass password for encryption failed, fixed path operation issue
+
+commit bd278e61cfcdf8710e4905de2257e932a3ce5f66
+Author: n1000282 <>
+Date:   Sun Apr 23 09:11:35 2023 +0000
+
+    All changes successful Users can encrypt when files are in container all emmulation of the terminal is complete expect nano.
+
+commit 51a1423c5bc7657dc42e4d04bf7eec727114a6a2
+Author: n1000282 <>
+Date:   Sun Apr 23 08:30:57 2023 +0000
+
+    Had to rollback changes
+
+commit 3f81360a7bce73efd8a7d6caa212c7c5a8165da4
+Author: ntu-user <ntu-user@28dc0c63e9c2>
+Date:   Sun Apr 23 08:16:25 2023 +0000
+
+    Fixing
+
+commit 1f10986d48e26011e46ac3e01c1a417da47cd95e
+Author: ntu-user <ntu-user@28dc0c63e9c2>
+Date:   Sun Apr 23 08:11:57 2023 +0000
+
+    Fix conflicts
+
+commit 1936fcd010959fe7762c2c3ab6fbc6345a8b6dd3
+Author: n1000282 <ntu-user@0c753d0b7349>
+Date:   Sun Apr 23 07:13:08 2023 +0000
+
+    Added error catcher for admin to see, fix other minor issues
+
+commit 5c5e3a1d09c94fcbc748480987cc4bd0f1e3fdab
+Author: n1000282 <>
+Date:   Sun Apr 23 06:08:00 2023 +0000
+
+    Can now encrypt and decrypt files inside the container, whoami, ps, tree completed nano not needed as bat does the same thing.
+
+commit 5625a151ba2e4910d4e76641454743f4b4954183
+Author: n0999738 <>
+Date:   Sun Apr 23 01:19:21 2023 +0100
+
+    zipping fixing issues
+
+commit e5145d0f2eaf292e86c76df15e201f570e7b6831
+Author: n0999738 <>
+Date:   Sat Apr 22 23:34:40 2023 +0100
+
+    users can now see processes
+
+commit 5e0afb64e4a043d131514f4838ceccd301fd9922
+Author: N1000282 <>
+Date:   Sat Apr 22 19:05:32 2023 +0000
+
+    Nano terminal emulation completed.
+
+commit 3a8e6a6d52c2e3c4323d4a2b1c6d9a3b8248ec7f
+Author: ntu-user <ntu-user@97f8a7dbbdba>
+Date:   Thu Apr 20 15:22:51 2023 +0000
+
+    Trying to fix encryption of files
+
+commit 0ef4d57756965b53454ebd38ce76a985cca5cc8b
+Author: ntu-user <ntu-user@408854c20110>
+Date:   Thu Apr 20 14:35:53 2023 +0000
+
+    Testing Encryption
+
+commit d2a6bfb88fab220b08b58a185a3c8ed9ab6fe001
+Author: N1000282 <ntu-user@ecdf42c02dca>
+Date:   Sun Apr 9 23:26:02 2023 +0000
+
+    We implemented the option to share a file with read or write access.
+
+commit 800c372f5650235878874597fc412bd4a76dfd5f
+Author: N1000282 <ntu-user@ecdf42c02dca>
+Date:   Sun Apr 9 22:51:20 2023 +0000
+
+    Users can now Share Files and Admin now view error messages from file storage and App container
+
+commit 2f4f3ff943e798603ecd6d030ce0bcb56f3f6a8a
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Sun Apr 9 22:09:40 2023 +0100
+
+    fixed sharefile fxml
+
+commit d1f205c1a607a3cf42e6a4937d51d4df7ca452cc
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Sun Apr 9 20:42:11 2023 +0100
+
+    added another column to admin databse
+
+commit 6c48b9876ae7522faebd68cd8a62c6bf6b1d2fde
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Sun Apr 9 20:34:01 2023 +0100
+
+    Added Admin table to the database
+
+commit d6a9b992fbd7b7c7ecd086e2640fc2eead4d4f95
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Sun Apr 9 20:20:06 2023 +0100
+
+    updated so that deletes the file after 30 days
+
+commit 6a86dfad96fbac6ac49f26fb4d5560989d60876e
+Author: N1000282 <>
+Date:   Sun Apr 9 18:23:14 2023 +0000
+
+    Users can now recover files before they are deleted.
+
+commit 264e31146a981d81d4e709002463a98b5fa099d4
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Sun Apr 9 15:48:12 2023 +0100
+
+    moved the deleteafter centain time to maincontroller
+
+commit ac1e73ad2ac64f196ebe8d2a226ccb2180ab1edf
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Sun Apr 9 15:28:17 2023 +0100
+
+    updated the logincontroller and added the alerts
+
+commit 4e046710ab3bc555965095f520d88541d1555fde
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Sun Apr 9 15:09:28 2023 +0100
+
+    the deletefilecontroller now deletes any files that has been in the for 2 minutes this is just to test and will change to 30 days
+
+commit 59aa68c6e1a19016b78528113783cb7f4cec74ab
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Sun Apr 9 14:57:33 2023 +0100
+
+    fixed the issues with moving the files to the deleted folder in the file still error to trying to delete files if they have been in there after a certain amount of time
+
+commit efc19d945579ff84f0e9ae1e4c0f09da4babf8a1
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Sun Apr 9 13:07:55 2023 +0100
+
+    fixed the delete so it makes the deleted/ folder and moves it there
+
+commit 5026f5146fd03889fca01744110077a59be9beb9
+Author: ntu-user <ntu-user@040a1db849a7>
+Date:   Sun Apr 9 07:44:43 2023 +0000
+
+    Added File Sharing but no read or write access to set yet, Added Recover File and but not delete file after 30 days.
+
+commit 15c8f04bae499352e122db801cd8dd4d9dd4ec73
+Author: n0999738 <>
+Date:   Sat Apr 8 22:51:13 2023 +0100
+
+    fixed the move file issue
+
+commit 57b0898d28b270ac6506979989633e3a9578194a
+Author: n1000282 <>
+Date:   Sat Apr 8 21:15:52 2023 +0000
+
+    Fixed MoveFiles operation
+
+commit 9892bd1b08d3dab110653947a725521a1f593d19
+Author: N0999738 <>
+Date:   Sat Apr 8 21:56:22 2023 +0100
+
+    successfully made the docker container that contains all the file storage also had to alter the sudo commands for the ntu-user.
+
+commit cb76dc91603d1f14e3f482d3fc26ee0d089a2080
+Author: n1000282 <>
+Date:   Fri Apr 7 23:57:08 2023 +0000
+
+    Users Session can now be tracked. The same user cannot be logged into multiple instances of the App Client Server/Sessions have been impement, Me and Akashay will implement the docker system as Akashay has started work on it.
+
+commit db3d16a242da9b908323fcc7664770676ebf423f
+Merge: bd40e83 6f523c3
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Fri Apr 7 18:10:33 2023 +0000
+
+    Merge origin/master
+
+commit bd40e83d9e70149241e41c13dcfa6fd98c218d76
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Fri Apr 7 18:01:24 2023 +0000
+
+    Users can now make and remove directories dynamically
+
+commit 6f523c301111665f08acf9b0b6aef01f972042af
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Fri Apr 7 18:01:24 2023 +0000
+
+    Users can now make and remove directories dynamically
+
+commit 456afd55b9d42954ab098192b2de44eecb577d19
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Fri Apr 7 17:57:48 2023 +0000
+
+    Users can now make and remove directories dynamically
+
+commit 363bc4bd823399f43bf84c30e2e9e0e3cc2b6eee
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Fri Apr 7 16:34:01 2023 +0100
+
+    updated the d to allow more than one user to access
+
+commit 6bbad817f1b882fd8c1732da540b0b2e90d44bda
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Fri Apr 7 16:33:39 2023 +0100
+
+    updated the database to allow more than one user to access
+
+commit 2b2d7d89bca023b0b037826aa74a025ffb1bb1b2
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Fri Apr 7 14:19:41 2023 +0100
+
+    users that try register with the same user name will get an alert saying user is already signed up
+
+commit a0a137faa1315a588db42d23caa2ad2982f0e484
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Thu Apr 6 23:07:14 2023 +0000
+
+    Users can now unzip files and it will reside inside the users designated folder
+
+commit c42cb3a18576a16defc640abd2d4095fa9fce484
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Thu Apr 6 16:28:20 2023 +0000
+
+    Users can now Zip Files and it will be stored in their designated folder, will move onto unzipping
+
+commit 8e2591c4605db41212d8e4edc90fd8089dfc9af4
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Thu Apr 6 15:15:00 2023 +0000
+
+    Users can now Add files with content and save it, as well as now upload multiple files one at a time.
+
+commit 1edd769b334c982a67a4e9d6fcecf85a89e0397d
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Thu Apr 6 12:35:34 2023 +0000
+
+    Users can now Move, Rename, Copy Files and Folders dynamically need to start work on file uploading and in depth creating a file.
+
+commit 051d31a571382b57ce0c9f0fab5d97bb25888447
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Thu Apr 6 11:10:58 2023 +0000
+
+    Users can now dynamically add and delete files, as well as dynamically navigate through directories.
+
+commit d1d4140a77e71df66ada20062e05c6871f1d4639
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Wed Apr 5 23:05:58 2023 +0000
+
+    Each user can now have their own directory to perform file operations dynamically.
+    Will complete the rest of the operations soon.
+
+commit bfcc3ac38f64fabf3264da1cd0443ed7cc1934ba
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Wed Apr 5 18:27:07 2023 +0000
+
+    Upgraded java fx to 17.0.2 now able to use initialize, have incorporated it into the application users can now view the directory without the use of a refresh button.
+
+commit 975af220d4a01b96a58b992e38a85a20fda12a0f
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Wed Apr 5 17:53:03 2023 +0000
+
+    Rebased Everything with me and my partner job. Created a way for users to view files and folders in a specific path, next i will work on making it dynamic.
+
+commit e9f57b67aa4a5af7c45819234393b47a61c1ef21
+Merge: 3fb83cb 1053860
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Wed Apr 5 17:47:41 2023 +0000
+
+    Merge origin/master
+
+commit 3fb83cb4ba1d3e5013818541ce774234478cf7ec
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Wed Apr 5 16:59:10 2023 +0100
+
+    Rebased Everything with me and my partner job. Created a way for users to view files and folders in a specific path, next i will work on making it dynamic.
+
+commit 1053860d50dff7f3a457ecc0b87c1f5507e9e047
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Wed Apr 5 16:59:10 2023 +0100
+
+    added alerts to the login where that if the username and password is blank it pops up with an alert saying input and password
+
+commit 7b9d330637058fd20dd9c67527c1494f8cf8a100
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Wed Apr 5 16:52:36 2023 +0100
+
+    added so that registered users that dont input a username or password get an alert with error and successful ones do
+
+commit 6fb1d9a641ef31da0e81c3490f61bc059e8fe175
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Wed Apr 5 16:51:59 2023 +0100
+
+    added so that registered users that dont input a username or password get an alert with error and successful ones do
+
+commit 1eefde56db160468a37b94521e2833bc68f53cac
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Tue Apr 4 22:11:26 2023 +0000
+
+    Started on file management users can now create a file and delete a file but not dynamically still need to introduce file name input and show the directory the user is inside as well as how many files are there.
+
+commit e42fcf06fb7a4b9d7d82596985bc328a21d74b58
+Author: n1000282 <ntu-user@9b094ebe8d14>
+Date:   Tue Apr 4 17:03:40 2023 +0000
+
+    Completed user management users now have the ability to delete their accounts, as well as change their details.
+
+commit e5fe2d6ba6bb9606b7bca5106b1cd682266ec5b1
+Author: n1000282 <>
+Date:   Tue Apr 4 16:37:33 2023 +0000
+
+    Fixed some validation issues with logging and signing up, completed the updating process so users can now change password and username, next up file operations.
+
+commit 8cf5eaf1c21c36567d49f1ddbfd313aab69cb5ac
+Author: n1000282 <>
+Date:   Thu Mar 23 15:53:15 2023 +0000
+
+    Starting work on main interface and logout is working
+
+commit c77a9d9878ea2a8c31054ccd64489c1913bfd271
+Author: n1000282 <>
+Date:   Thu Mar 16 18:21:42 2023 +0000
+
+    Fixed the transition to different scene after log in.
+
+commit bece0041d2a77f6aa14eb73474c83458e377f765
+Author: N1000282 <ntu-user@d6adf74934b9>
+Date:   Thu Mar 16 16:02:55 2023 +0000
+
+    Trying to switch scences
+
+commit 69091a52057f4ce0905f6230931dd00c0e4f6645
+Author: N1000282 <>
+Date:   Thu Mar 16 15:52:32 2023 +0000
+
+    Finally fixed UserLogin Process
+
+commit aeb09e7cd7b3b9ac96094158d272a1140e360f6d
+Author: N1000282 <ntu-user@6c3eb1e6f859>
+Date:   Thu Mar 9 21:15:49 2023 +0000
+
+    Package created, Cannot get successful login.
+
+commit 3d3415307770a769d6afca1a46e6c8a9b8fe2bc0
+Author: N1000282 <>
+Date:   Thu Mar 9 21:13:20 2023 +0000
+
+    Package created, Cannot get successful login.
+
+commit 0d31aafbf591d0652dac960d9cae4c1b5cee5649
+Author: ntu-user <ntu-uer@ntu-user>
+Date:   Thu Feb 23 15:52:31 2023 +0000
+
+    new
+
+commit ce9aaa899cc1359e603f901d9a4799bafd99b3c0
+Author: N1000282 <dammy.ademola2021@my.ntu.ac.uk>
+Date:   Wed Feb 8 18:29:22 2023 +0000
+
+    Everything should be working
+
+commit 2b1a0652e4362ae662c15edbb5fd9220964bb317
+Author: N1000282 <dammy.ademola2021@my.ntu.ac.uk>
+Date:   Wed Feb 8 18:18:16 2023 +0000
+
+    Initial commit

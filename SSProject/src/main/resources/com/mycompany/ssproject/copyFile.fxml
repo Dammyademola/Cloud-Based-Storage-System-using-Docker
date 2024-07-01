@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.ssproject.CopyFileController">
+   <children>
+      <Text layoutX="212.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIle or Folder Name" />
+      <TextField fx:id="theFileNameorfolder" alignment="CENTER" layoutX="210.0" layoutY="168.0" promptText="Enter file or folder name" />
+      <Button layoutX="24.0" layoutY="25.0" mnemonicParsing="false" onAction="#backtoMain" text="Back" />
+      <Button layoutX="263.0" layoutY="302.0" mnemonicParsing="false" onAction="#copyFile" text="Submit" />
+      <TextField fx:id="newFileNameorfolder" alignment="CENTER" layoutX="210.0" layoutY="250.0" promptText="Enter file or folder name" />
+      <Text layoutX="210.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIle or Folder Name" />
+   </children>
+</AnchorPane>

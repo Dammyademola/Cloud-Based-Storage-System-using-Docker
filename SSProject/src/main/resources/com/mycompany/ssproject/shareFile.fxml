@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.ssproject.ShareFileController">
+   <children>
+      <Text layoutX="217.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File Name:" />
+      <TextField fx:id="fileName" alignment="CENTER" layoutX="215.0" layoutY="113.0" promptText="Enter file name" />
+      <Button layoutX="24.0" layoutY="25.0" mnemonicParsing="false" onAction="#backtoMain" text="Back" />
+      <Button layoutX="211.0" layoutY="264.0" mnemonicParsing="false" onAction="#sharetheFile" text="Share with Read &amp; Write" />
+      <TextField fx:id="usernameRecipients" alignment="CENTER" layoutX="215.0" layoutY="195.0" promptText="Enter Username" />
+      <Text layoutX="215.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recipients Username:" />
+      <Button layoutX="229.0" layoutY="307.0" mnemonicParsing="false" onAction="#sharetheReadAccessFile" text="Share Read Access" />
+   </children>
+</AnchorPane>

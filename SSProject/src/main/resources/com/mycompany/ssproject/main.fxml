@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19.0.0+1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.ssproject.MainController">
+   <children>
+      <Pane layoutX="-1.0" layoutY="1.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Profile">
+                  <items>
+                        <MenuItem fx:id="editProfile" mnemonicParsing="false" onAction="#editProfile" text="Edit" />
+                        <MenuItem fx:id="editProfile2" mnemonicParsing="false" onAction="#deleteProfile" text="Delete" />
+                        <MenuItem fx:id="logOut" mnemonicParsing="false" onAction="#logOut" text="LogOut" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#createFile" text="Add" />
+                        <MenuItem mnemonicParsing="false" onAction="#renameFile" text="Rename" />
+                        <MenuItem mnemonicParsing="false" onAction="#movetheFile" text="Move" />
+                        <MenuItem mnemonicParsing="false" onAction="#CopyFile" text="Copy" />
+                        <MenuItem mnemonicParsing="false" onAction="#deleteFile" text="Delete" />
+                        <MenuItem mnemonicParsing="false" onAction="#recoverFile" text="Recover" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Directory">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#createDir" text="Create" />
+                        <MenuItem mnemonicParsing="false" onAction="#deleteDir" text="Delete" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Zip">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#zipFiles" text="Zip File" />
+                        <MenuItem mnemonicParsing="false" onAction="#unzipFiles" text="Unzip File" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Other">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#uploadFile" text="Upload" />
+                        <MenuItem mnemonicParsing="false" onAction="#shareFile" text="Share File" />
+                        <MenuItem mnemonicParsing="false" onAction="#treeStructure" text="Tree" />
+                        <MenuItem fx:id="ps" mnemonicParsing="false" onAction="#ps" text="ps" />
+                        <MenuItem fx:id="ps1" mnemonicParsing="false" onAction="#whoami" text="whoami" />
+                     </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </Pane>
+      <TextArea fx:id="directoryItems" editable="false" layoutX="345.0" layoutY="91.0" prefHeight="134.0" prefWidth="256.0" text="Please enter path to show directory." wrapText="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="345.0" layoutY="69.0" stroke="BLACK" strokeDashOffset="1.0" strokeType="INSIDE" strokeWidth="0.0" width="256.0" />
+      <Text layoutX="364.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Directory" />
+      <TextArea fx:id="directoryItems1" editable="false" layoutX="345.0" layoutY="248.0" prefHeight="151.0" prefWidth="256.0" text="Please enter path to show files" wrapText="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="345.0" layoutY="225.0" stroke="BLACK" strokeDashOffset="1.0" strokeType="INSIDE" strokeWidth="0.0" width="256.0" />
+      <Text layoutX="364.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Files" />
+      <Text fx:id="filePath" layoutX="99.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="14.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File path:" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input path:" />
+      <TextField fx:id="getPath" layoutX="93.0" layoutY="274.0" prefHeight="25.0" prefWidth="132.0" />
+      <Button layoutX="93.0" layoutY="238.0" mnemonicParsing="false" onAction="#submitPath" prefHeight="25.0" prefWidth="54.0" text="Add" />
+      <Button layoutX="172.0" layoutY="238.0" mnemonicParsing="false" onAction="#removePath" prefHeight="25.0" prefWidth="54.0" text="Back" />
+   </children>
+</AnchorPane>

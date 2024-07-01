@@ -1,0 +1,86 @@
+\hypertarget{namespacecom_1_1mycompany_1_1ssproject}{}\doxysection{Package com.\+mycompany.\+ssproject}
+\label{namespacecom_1_1mycompany_1_1ssproject}\index{com.mycompany.ssproject@{com.mycompany.ssproject}}
+
+
+This class represents a singleton object that stores user data.  
+
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1AdminPanelController}{Admin\+Panel\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1App}{App}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1CopyFileController}{Copy\+File\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1CreateFileController}{Create\+File\+Controller}}
+\begin{DoxyCompactList}\small\item\em Controller class for the create file window. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1Database}{Database}}
+\begin{DoxyCompactList}\small\item\em This class creates the S\+Q\+Lite database and the User and Admin tables. \end{DoxyCompactList}\item 
+class {\bfseries Data\+Signleton\+Admin}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1DataSingleton}{Data\+Singleton}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1DeleteFileController}{Delete\+File\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1DirOperationsController}{Dir\+Operations\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1EditprofileController}{Editprofile\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1errorCatcher}{error\+Catcher}}
+\begin{DoxyCompactList}\small\item\em A class for catching and logging errors in the system software. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1LoginController}{Login\+Controller}}
+\begin{DoxyCompactList}\small\item\em This class controls the login process of the application. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1MainController}{Main\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1MoveFileController}{Move\+File\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1psController}{ps\+Controller}}
+\begin{DoxyCompactList}\small\item\em A controller class for the ps.\+fxml file, which displays a list of running processes. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1RecoverFileController}{Recover\+File\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1RegisterController}{Register\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1RenameFileController}{Rename\+File\+Controller}}
+\begin{DoxyCompactList}\small\item\em Handles file renaming. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1ShareFileController}{Share\+File\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1TreeStructureController}{Tree\+Structure\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1UnzipFilesController}{Unzip\+Files\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1UploadFileController}{Upload\+File\+Controller}}
+\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1whoamiController}{whoami\+Controller}}
+\begin{DoxyCompactList}\small\item\em This class is the controller for the whoami window. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1ZipFilesController}{Zip\+Files\+Controller}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents a singleton object that stores user data. 
+
+The \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1AdminPanelController}{Admin\+Panel\+Controller}} class is a controller for the Admin Panel view of the software system. It initializes and manages the Error Table view of the admin panel, which shows a list of logged errors. It also includes methods for logging out and returning to the main menu.
+
+Main class of the System Software Project. This class extends javafx.\+application.\+Application and is responsible for initializing the Java\+FX application and setting up the scene.
+
+Controller class for the main window of the application.
+
+F\+X\+ML Controller class for recovering a file. The controller is responsible for handling user input and executing a shell command to move the file from the trash bin to the user\textquotesingle{}s directory. The controller is also responsible for navigating back to the main page. The controller contains the following public methods\+: recoverfile(\+Action\+Event event)\+: handles the file recovery action by executing a shell command to move the file from the trash bin to the user\textquotesingle{}s directory. backto\+Main(\+Action\+Event event)\+: handles navigation back to the main page. The controller contains the following private fields\+: thefolder\+: a Text\+Field for user input of the file to be recovered. data\+: an instance of the \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1DataSingleton}{Data\+Singleton}} class for accessing user data such as the directory and username. Directory\+: a String that represents the directory of the user. user\+Name\+: a String that represents the username of the user. The controller contains the following private methods\+: None. \begin{DoxyAuthor}{Author}
+ntu-\/user
+\end{DoxyAuthor}
+This class is the controller for the Share\+File.\+fxml view. It allows the user to share a file or share a file with read-\/only access to other users on the system. The class contains the methods to handle the user\textquotesingle{}s actions in the view, including checking if the recipient user exists, sharing the file, and going back to the main view.
+
+\begin{DoxyAuthor}{Author}
+ntu-\/user
+\end{DoxyAuthor}
+The \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1TreeStructureController}{Tree\+Structure\+Controller}} class represents the controller for the tree structure view. It initializes the view with the root directory and populates the tree with subdirectories and files.
+
+This package contains the controller for the Unzip Files feature of the System Software application. It includes methods for unzipping a file, copying a file to the app container, and navigating back to the main page. It uses a \mbox{\hyperlink{classcom_1_1mycompany_1_1ssproject_1_1DataSingleton}{Data\+Singleton}} instance to get the current user\textquotesingle{}s username and create a directory path for the unzipped file.
+
+F\+X\+ML Controller class for uploading a file to the app container.
+
+\begin{DoxyAuthor}{Author}
+ntu-\/user 
+\end{DoxyAuthor}
